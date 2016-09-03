@@ -82,4 +82,4 @@ names(tidy.data)[names(tidy.data) == "Group.2"] <- "activity_id"
 tidy.data2 <- merge(activityLabel, tidy.data, by="activity_id", all.x = TRUE)
 
 # commit the result [tidy.data2] to persistence. 
-write.table(tidy.data2, "./tidyData.txt", row.names=TRUE, sep='\t')
+write.table(tidy.data2, "./tidyData.txt", row.names=FALSE, sep='\t')
