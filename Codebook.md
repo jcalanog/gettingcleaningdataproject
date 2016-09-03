@@ -58,20 +58,27 @@ This project is a lot harder than expected, mainly attributing it how the data f
 In itself, this code is not in its best form, and could be optimized later if needed. 
 
 Here are the steps :
+
 1. EVALUATE AND ANALYZE THE FILE ORGANIZATION. 
+------------------------------------------------
 I figured this would be the most important step in doing the project. This is actually the part where I took the longest while doing this project. 
 
 2. LOAD ALL THE FILES ACCORDING TO PERCEIVED ORGRANIZATION LOGIC. 
+------------------------------------------------------------------
 Self-explanatory. 
 
 3. MERGE THE DATASETS AND RENAME COLUMNS AS NECESSARY. 
+------------------------------------------------------
 Once files are loaded into memory, now we can merge datasets and organize them accordingly to how we need them. In this step, we also needed to identify what are our primary columns are as well rename the columns that we needed. 
 
 4. PERFORM DATASET SUBSETTING TO LIMIT VIEW AND THEN PERFORM COLUMN SEARCHES FOR COLUMNS INTENDED. 
+------------------------------------------------------------------------------------------------------------
 Implement the primary column subsetting and search for string pattern search through gsub (or grep) for column names. 
 
 5. AGGREGATE COLUMNS' VALUES ACCORDING TO ACTIVITY AND SUBJECT. 
+---------------------------------------------------------------
 Implement the use of aggregate() function. 
 
 6. PERSIST THE CALCULATION.
+-----------------------------
 Save the calculations to file, tidy_data.txt. 
