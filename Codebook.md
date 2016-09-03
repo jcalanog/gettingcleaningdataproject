@@ -65,20 +65,31 @@ I figured this would be the most important step in doing the project. This is ac
 
 2. LOAD ALL THE FILES ACCORDING TO PERCEIVED ORGRANIZATION LOGIC. 
 ------------------------------------------------------------------
-Self-explanatory. 
+
+[![alt text](https://github.com/jcalanog/gettingcleaningdataproject/blob/master/load%20data%20screenshot.png "loading data")
 
 3. MERGE THE DATASETS AND RENAME COLUMNS AS NECESSARY. 
 ------------------------------------------------------
 Once files are loaded into memory, now we can merge datasets and organize them accordingly to how we need them. In this step, we also needed to identify what are our primary columns are as well rename the columns that we needed. 
 
+[![alt text](https://github.com/jcalanog/gettingcleaningdataproject/blob/master/merge%20dataset.png "merge dataset")
+
+
 4. PERFORM DATASET SUBSETTING TO LIMIT VIEW AND THEN PERFORM COLUMN SEARCHES FOR COLUMNS INTENDED. 
 ------------------------------------------------------------------------------------------------------------
 Implement the primary column subsetting and search for string pattern search through gsub (or grep) for column names. 
 
+![alt text](https://github.com/jcalanog/gettingcleaningdataproject/blob/master/subset%20and%20column%20rename.png "search and rename")
+
 5. AGGREGATE COLUMNS' VALUES ACCORDING TO ACTIVITY AND SUBJECT. 
 ---------------------------------------------------------------
 Implement the use of aggregate() function. 
+This actually took a while to figure out, using only the base library.
+
+![alt text](https://github.com/jcalanog/gettingcleaningdataproject/blob/master/aggregation.png "aggregation")
 
 6. PERSIST THE CALCULATION.
 -----------------------------
 Save the calculations to file, tidy_data.txt. 
+
+![alt text](https://github.com/jcalanog/gettingcleaningdataproject/blob/master/persistence.png "persistence")
